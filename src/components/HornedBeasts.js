@@ -26,10 +26,12 @@ class HornedBeasts extends React.Component {
         <p>{this.props.description}</p>
         <p>🦄 {this.state.numberOfchoice} 🦄</p> */}
 
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '18rem' }} onClick ={()=> {
+          this.props.modaldate(this.props.title)
+        }}>
 
           <Card.Body>
-            <Card.Title>{this.props.title}</Card.Title>
+            <Card.Title>{this.props.dataselected.title}</Card.Title>
             <Card.Img variant="top" src={this.props.img_url} />
             <Card.Text>
               {this.props.description}
