@@ -4,7 +4,7 @@ export class Footer extends Component {
     render() {
         return (
             <div>
-                
+                  <p> © (ASAC) Noortan Abu_Darwesh  </p>
             </div>
         )
     }
