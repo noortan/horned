@@ -10,7 +10,7 @@ class Main extends React.Component {
         {
           Horned.map((item, index) => {
             return (
-              <HornedBeasts title={item.title} img_url={item.image_url} description={item.description} key={index} />
+              <HornedBeasts modeldata={this.props.modeldata} dataselected={this.props.dataselected} title={item.title} img_url={item.image_url} description={item.description} key={index} />
             )
           })
         }
