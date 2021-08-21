@@ -10,8 +10,8 @@ Actual time needed to complete: 30 mon.
 Stretch Goal- Fuzzy search
 Estimate of time needed to complete: 2 hours
 
-Start time: 6:40 pm
+Start time:
 
-Finish time: 7:10 pm
+Finish time:
 
-Actual time needed to complete: one hour and 10 min
+Actual time needed to complete:
